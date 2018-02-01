@@ -5,9 +5,11 @@ Deal API
 ********************************************************************************
 
 Acquire latest executed list
-----------------------
+----------------------------------
 
-        **Example request**:
+
+        **Example request**::
+
             {
                 "method": "deals.query",
                 "params": [
@@ -18,17 +20,21 @@ Acquire latest executed list
                 "id": 1223
             }
 
-        **Response**:
+        **Response**::
+
             {
               "error": null,
               "id": 1223,
               "result": []
             }
 
-Latest order list subscription
-----------------------
 
-        **Example request**:
+
+Latest order list subscription
+---------------------------------------
+
+        **Example request**::
+
             {
                 "method": "deals.subscribe",
                     "params":[          #1. params: market list
@@ -38,7 +44,7 @@ Latest order list subscription
                 "id": 1223
             }
 
-        **Notify**:
+        **Notify**::
 
             {
                 "method": "deals.update",
@@ -67,13 +73,16 @@ Latest order list subscription
 Cancel subscription
 ----------------------
 
-        **Example request**:
+        **Example request**::
+
             {
                 "method": "deals.unsubscribe",
                 "params": [],
                 "id": 1517466483
             }
-        **Response**:
+
+        **Response**::
+
 
             {
               "error": null,
