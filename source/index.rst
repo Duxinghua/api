@@ -11,10 +11,5 @@ Welcome to Expie api's documentation!
    :caption: Contents:
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   http-api/index
+   websocket-api/index
