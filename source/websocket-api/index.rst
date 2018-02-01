@@ -5,6 +5,10 @@ WebSocket API
 .. toctree::
 :maxdepth: 2
 
-      system-api
-      depth-api
-      deal-api
+      system-api.rst
+      depth-api.rst
+      deal-api.rst
+      market-api.rst
+      price-api.rst
+      system-api.rst
+
