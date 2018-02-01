@@ -13,3 +13,4 @@ Welcome to Expie api's documentation!
 
    http-api/index
    websocket-api/index
+   websocket-api/market-api
