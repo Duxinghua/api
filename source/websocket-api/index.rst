@@ -6,3 +6,5 @@ WebSocket API
 :maxdepth: 2
 
       system-api
+      depth-api
+      deal-api
