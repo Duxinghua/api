@@ -7,14 +7,16 @@ System API
 PING
 ----------------------
 
-        **Example request**:
+        **Example request**::
+
             {
                 "method": "server.ping",
                 "params": [],
                 "id": 1223
             }
 
-        **Response**:
+        **Response**::
+
             {
               "error": null,
               "result": "pong",
@@ -24,14 +26,16 @@ PING
 System Time
 ----------------------
 
-        **Example request**:
+        **Example request**::
+
             {
               "method":"server.time",
               "params":[],
               "id": 1223
              }
 
-        **Response**:
+        **Response**::
+
             {
               "error": null,
               "result": 1517455018,

@@ -5,17 +5,16 @@ Deal API
 ********************************************************************************
 
 Acquire latest executed list
-----------------------------------
-
+----------------------
 
         **Example request**::
 
             {
                 "method": "deals.query",
                 "params": [
-                    "BCCBTC",           #1.market: market name
-                    10,                 #2.limit: amount limit
-                    7561                #3.last_id: largest ID of last returned result
+                    "BCCBTC",           //1.market: market name
+                    10,                 //2.limit: amount limit
+                    7561                //3.last_id: largest ID of last returned result
                 ],
                 "id": 1223
             }
@@ -28,10 +27,8 @@ Acquire latest executed list
               "result": []
             }
 
-
-
 Latest order list subscription
----------------------------------------
+----------------------
 
         **Example request**::
 
@@ -49,8 +46,8 @@ Latest order list subscription
             {
                 "method": "deals.update",
                 "params": [
-                    "BCDBTC",           #1.market name
-                    [                   #2.order list
+                    "BCDBTC",           //1.market name
+                    [                   //2.order list
                         {
                             "price": "0.000801",
                             "id": 6834,
@@ -80,9 +77,7 @@ Cancel subscription
                 "params": [],
                 "id": 1517466483
             }
-
         **Response**::
-
 
             {
               "error": null,

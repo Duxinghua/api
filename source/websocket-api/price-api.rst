@@ -7,16 +7,18 @@ Price API
 Acquire latest price
 ----------------------
 
-        **Example request**:
+        **Example request**::
+
                 {
                     "method": "price.query",
                     "params": [
-                        "BCCBTC"                #1. market: String, market name
+                        "BCCBTC"                //1. market: String, market name
                     ],
                     "id": 1517466483
                 }
 
-        **Response**
+        **Response**::
+
                 {
                     "error": null,
                     "id": 1517466483,
@@ -25,16 +27,18 @@ Acquire latest price
 
 Latest price subscription
 ----------------------
-        **Example request**:
+        **Example request**::
+
                 {
                     "method": "price.subscribe",
                     "params": [
-                        "BCCBTC"                #1. market list
+                        "BCCBTC"                //1. market list
                     ],
                     "id": 1517466483
                 }
 
-        **notify**:
+        **notify**::
+
                 {
                     "method": "price.update",
                     "params": [
@@ -47,14 +51,16 @@ Latest price subscription
 Latest price unsubscribe
 ----------------------
 
-        **Example request**:
+        **Example request**::
+
                 {
                     "method": "price.unsubscribe",
                     "params": [],
                     "id": 1517466483
                 }
 
-        **Response**:
+        **Response**::
+
                 {
                   "error": null,
                   "result": {

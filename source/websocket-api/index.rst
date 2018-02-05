@@ -2,13 +2,11 @@
 WebSocket API
 ################################################################################
 
-
 .. toctree::
-   :maxdepth: 2
+:maxdepth: 2
 
-   deal-api.rst
-   depth-api.rst
-   market-api.rst
-   price-api.rst
-   system-api.rst
-
+    system-api.rst
+    price-api.rst
+    market-api.rst
+    depth-api.rst
+    deal-api.rst

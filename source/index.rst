@@ -10,6 +10,12 @@ Welcome to Expie api's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
    websocket-api/index
+   http-api/index
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
