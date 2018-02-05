@@ -112,12 +112,12 @@ Market Order Finished
                         "taker_fee": "0"
                         }
                     ],
-                "limit": 10,
-                "offset": 0
+                    "limit": 10,
+                    "offset": 0
                 }
 
         **URL**:
-            *``market`` *(required) - market name, for example *(BCCBTC)*.
+            * ``market`` *(required) - market name, for example *(BCCBTC)*.
 
         **Parameters**:
             * ``offset`` *(optional)* *(int)* - sinceId.
@@ -139,14 +139,14 @@ Market Order Pending
                         "maker_fee": "0.001",
                         "price": "0.001254",
                         "deal_stock": "0",
-                        "side": 2,     // 1：sell，2：buy
+                        "side": 2,     // 1:sell, 2:buy
                         "source": "bitpie.client",
                         "amount": "30",
                         "user": 259285,
                         "mtime": 1517580449.685034,
                         "deal_money": "0",
                         "left": "30",
-                        "type": 1,      // 1: limit order，2：market order
+                        "type": 1,      // 1:limit order, 2:market order
                         "id": 20321,
                         "market": "BTGBTC",
                         "taker_fee": "0.001"
@@ -158,7 +158,7 @@ Market Order Pending
                 }
 
         **URL**:
-            *``market`` *(required) - market name, for example *(BCCBTC)*.
+            * ``market`` *(required) - market name, for example *(BCCBTC)*.
 
         **Parameters**:
             * ``offset`` *(optional)* *(int)* - sinceId.
