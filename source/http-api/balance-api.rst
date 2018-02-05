@@ -43,7 +43,7 @@ Balance history
             **Example response**::
 
             {
-                "records":[
+                [
                     {
                         "business": "deposit",
                         "detail": {
@@ -66,9 +66,7 @@ Balance history
                         "balance": "0.1",
                         "change": "0.1"
                     }
-                ],
-                "limit": 10,
-                "offset": 0
+                ]
             }
 
 
