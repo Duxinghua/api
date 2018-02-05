@@ -5,7 +5,7 @@ Deal API
 ********************************************************************************
 
 Acquire latest executed list
-----------------------
+----------------------------
 
         **Example request**::
 
@@ -28,7 +28,7 @@ Acquire latest executed list
             }
 
 Latest order list subscription
-----------------------
+------------------------------
 
         **Example request**::
 
@@ -68,7 +68,7 @@ Latest order list subscription
             }
 
 Cancel subscription
-----------------------
+-------------------
 
         **Example request**::
 

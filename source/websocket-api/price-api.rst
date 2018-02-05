@@ -5,7 +5,7 @@ Price API
 ********************************************************************************
 
 Acquire latest price
-----------------------
+--------------------
 
         **Example request**::
 
@@ -26,7 +26,7 @@ Acquire latest price
                 }
 
 Latest price subscription
-----------------------
+-------------------------
         **Example request**::
 
                 {
@@ -49,7 +49,7 @@ Latest price subscription
                 }
 
 Latest price unsubscribe
-----------------------
+------------------------
 
         **Example request**::
 
