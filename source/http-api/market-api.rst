@@ -90,24 +90,26 @@ Market Order Finished
 
         **Example response**::
 
+                
+
                 {
                     "records": [
                         {
-                            "ctime": 1516689377.805243,
-                            "maker_fee": "0",
-                            "price": "0.151",
-                            "deal_fee": "0",
-                            "id": 187,
-                            "source": "bitpie.client",
-                            "amount": "0.001",
-                            "ftime": 1516689386.619962,
-                            "user": 116480,
-                            "deal_stock": "0.001",
-                            "deal_money": "0.000151",
-                            "type": 1,
-                            "side": 1,
-                            "market": "BCCBTC",
-                            "taker_fee": "0"
+                                "ctime": 1516689377.805243,
+                                "maker_fee": "0",
+                                "price": "0.151",
+                                "deal_fee": "0",
+                                "id": 187,
+                                "source": "bitpie.client",
+                                "amount": "0.001",
+                                "ftime": 1516689386.619962,
+                                "user": 116480,
+                                "deal_stock": "0.001",
+                                "deal_money": "0.000151",
+                                "type": 1,
+                                "side": 1,
+                                "market": "BCCBTC",
+                                "taker_fee": "0"
                         }
                     ],
                     "limit": 10,
@@ -128,7 +130,7 @@ Market Order Pending
 
         **Example response**::
 
-                /market/BTGBTC/order/pending?limit=10&offset=0
+
                 {
                     "records": [
                         {
@@ -171,7 +173,23 @@ Market Order Details
 
                 /market/BTGBTC/order/13479/details
 
-
+                {
+                    "records": [
+                        {
+                            "fee": "0.0010194",
+                            "deal": "0.0161197722",
+                            "price": "0.015813",
+                            "amount": "1.0194",
+                            "role": 1,
+                            "user": 259285,
+                            "time": 1517224387.037182,
+                            "deal_order_id": 13506,
+                            "id": 5288
+                        }
+                    ],
+                    "limit": 20,
+                    "offset": 0
+                }
 
         **URL**:
               * ``market`` *(required)*  - market name, for example *(BCCBTC)*.
