@@ -3,9 +3,8 @@ WebSocket API
 ################################################################################
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Contents:
-
+       :maxdepth: 2
+       :caption: Contents:
 
     system-api.rst
     price-api.rst
