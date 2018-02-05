@@ -93,26 +93,26 @@ Market Order Finished
                 /market/BCCBTC/order/finished?limit=10&offset=0
                 {
                         "records": [
-                             {
-                                      "ctime": 1516689377.805243,
-                                      "maker_fee": "0",
-                                      "price": "0.151",
-                                      "deal_fee": "0",
-                                      "id": 187,
-                                      "source": "bitpie.client",
-                                      "amount": "0.001",
-                                      "ftime": 1516689386.619962,
-                                      "user": 116480,
-                                      "deal_stock": "0.001",
-                                      "deal_money": "0.000151",
-                                      "type": 1,
-                                      "side": 1,
-                                      "market": "BCCBTC",
-                                      "taker_fee": "0"
-                             }
+                                {
+                                "ctime": 1516689377.805243,
+                                "maker_fee": "0",
+                                "price": "0.151",
+                                "deal_fee": "0",
+                                "id": 187,
+                                "source": "bitpie.client",
+                                "amount": "0.001",
+                                "ftime": 1516689386.619962,
+                                "user": 116480,
+                                "deal_stock": "0.001",
+                                "deal_money": "0.000151",
+                                "type": 1,
+                                "side": 1,
+                                "market": "BCCBTC",
+                                "taker_fee": "0"
+                                }
                         ],
-                        "limit": 10,
-                        "offset": 0
+                "limit": 10,
+                "offset": 0
                 }
 
         **URL**:
@@ -131,29 +131,29 @@ Market Order Pending
 
                 /market/BTGBTC/order/pending?limit=10&offset=0
                 {
-                    "records": [
-                        {
-                            "deal_fee": "0",
-                            "ctime": 1517580449.685034,
-                            "maker_fee": "0.001",
-                            "price": "0.001254",
-                            "deal_stock": "0",
-                            "side": 2,     // 1：sell，2：buy
-                            "source": "bitpie.client",
-                            "amount": "30",
-                            "user": 259285,
-                            "mtime": 1517580449.685034,
-                            "deal_money": "0",
-                            "left": "30",
-                            "type": 1,      // 1: limit order，2：market order
-                            "id": 20321,
-                            "market": "BTGBTC",
-                            "taker_fee": "0.001"
-                        }
-                    ],
-                    "total": 1,
-                    "limit": 10,
-                    "offset": 0
+                        "records": [
+                                {
+                                "deal_fee": "0",
+                                "ctime": 1517580449.685034,
+                                "maker_fee": "0.001",
+                                "price": "0.001254",
+                                "deal_stock": "0",
+                                "side": 2,     // 1：sell，2：buy
+                                "source": "bitpie.client",
+                                "amount": "30",
+                                "user": 259285,
+                                "mtime": 1517580449.685034,
+                                "deal_money": "0",
+                                "left": "30",
+                                "type": 1,      // 1: limit order，2：market order
+                                "id": 20321,
+                                "market": "BTGBTC",
+                                "taker_fee": "0.001"
+                                }
+                        ],
+                        "total": 1,
+                        "limit": 10,
+                        "offset": 0
                 }
 
         **URL**:
