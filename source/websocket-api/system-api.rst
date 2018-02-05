@@ -4,22 +4,3 @@
 System API
 ********************************************************************************
 
-PING
-----
-
-        **Example request**::
-
-            {
-                "method": "server.ping",
-                "params": [],
-                "id": 1223
-            }
-
-        **Response**::
-
-            {
-              "error": null,
-              "result": "pong",
-              "id": 1223
-            }
-
