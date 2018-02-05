@@ -7,5 +7,5 @@ HTTP-API
    :caption: Contents:
 
    general-usage.rst
-   balance-api.rst
    market-api.rst
+   balance-api.rst

@@ -7,6 +7,6 @@ WebSocket API
        :caption: Contents:
 
     system-api.rst
-    price-api.rst
     depth-api.rst
+    price-api.rst
     deal-api.rst
