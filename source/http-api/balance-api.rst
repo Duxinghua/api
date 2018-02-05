@@ -42,10 +42,8 @@ Balance history
 
             **Example response**::
 
-            /balance/history?coin_code=BCC&limit=10&offset=0
             {
-                "records":
-                [
+                "records":[
                     {
                         "business": "deposit",
                         "detail": {
@@ -72,6 +70,8 @@ Balance history
                 "limit": 10,
                 "offset": 0
             }
+
+
 
            **Parameters**:
             * ``coin_code`` *(required)* *(String)* - coinCode.
