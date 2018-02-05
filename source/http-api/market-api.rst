@@ -34,8 +34,7 @@ Market Depth
 
         **Example response**::
 
-            /market/BCCBTC/depth
-
+                /market/BCCBTC/depth
                 {
                     "bids": [
                         ["0.133", "0.0069"],
@@ -61,8 +60,8 @@ Market Depth
                         ["0.33", "3.1"]]
                 }
 
-           **URL**:
-                *``market`` *(required) - market name, for example *(BCCBTC)*.
+        **URL**:
+            *``market`` *(required) - market name, for example *(BCCBTC)*.
 
 Market Ticker
 -------------
@@ -71,7 +70,7 @@ Market Ticker
 
         **Example response**::
 
-            /market/BCCBTC/ticker
+                /market/BCCBTC/ticker
 
                 {
                   "high": "0.139999",
@@ -81,8 +80,8 @@ Market Ticker
                   "low": "0.1345"
                 }
 
-           **URL**:
-                *``market`` *(required) - market name, for example *(BCCBTC)*.
+        **URL**:
+            *``market`` *(required) - market name, for example *(BCCBTC)*.
 
 Market Order Finished
 ---------------------
@@ -121,7 +120,7 @@ Market Order Finished
             *``market`` *(required) - market name, for example *(BCCBTC)*.
 
         **Parameters**:
-            * ``offset``*(optional)* *(int)* - sinceId.
+            * ``offset`` *(optional)* *(int)* - sinceId.
             * ``limit`` *(optional)* *(int)* - limit.
 
 Market Order Pending
@@ -159,11 +158,11 @@ Market Order Pending
                 }
 
         **URL**:
-                *``market`` *(required) - market name, for example *(BCCBTC)*.
+            *``market`` *(required) - market name, for example *(BCCBTC)*.
 
         **Parameters**:
-                * ``offset``*(optional)* *(int)* - sinceId.
-                * ``limit`` *(optional)* *(int)* - limit.
+            * ``offset`` *(optional)* *(int)* - sinceId.
+            * ``limit`` *(optional)* *(int)* - limit.
 
 Market Order Details
 --------------------
@@ -204,6 +203,7 @@ Market Order Cancel
         **Example response**::
 
                 /market/BCCBTC/order/2168/cancel
+
                 {
                     "deal_fee": "0",
                     "ctime": 1517799540.747482,
