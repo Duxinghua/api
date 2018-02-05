@@ -15,3 +15,5 @@ Welcome to Expie api's documentation!
    test/index
    test1/index
    test2/index
+   test3/index
+   test4/index
