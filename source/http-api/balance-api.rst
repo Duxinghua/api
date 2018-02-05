@@ -73,7 +73,7 @@ Balance history
                 "offset": 0
             }
 
-            **Parameters**:
-            * ``coin_code *(required)* *(String)* - coinCode.
+           **Parameters**:
+            * ``coin_code`` *(required)* *(String)* - coinCode.
             * ``offset``*(optional)* *(int)* - offset.
             * ``limit`` *(optional)* *(int)* - limit.
