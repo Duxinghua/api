@@ -10,13 +10,13 @@ Depth query
         **Example request**::
 
                 {
-                  "method":"depth.query",
-                  "params":[
-                    "BCCBTC",           //1.market: market name
-                    10,                 //2.limit: Count limit, Integer
-                    "0"                 //3.interval: Merge，String e.g. "0" for no interval
-                  ],
-                  "id":1517465832
+                        "method":"depth.query",
+                        "params":[
+                        "BCCBTC",           //1.market: market name
+                        10,                 //2.limit: Count limit, Integer
+                        "0"                 //3.interval: Merge，String e.g. "0" for no interval
+                        ],
+                        "id":1517465832
                 }
 
         **Response**::
