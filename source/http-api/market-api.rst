@@ -161,11 +161,11 @@ Market Order Pending
 
            **URL**:
 
-            *``market`` *(required) - market name, for example *(BCCBTC)*.
+            * ``market`` *(required) - market name, for example *(BCCBTC)*.
 
         **Parameters**:
-            * ``offset``*(optional)* *(int)* - sinceId.
-            * ``limit`` *(optional)* *(int)* - limit.
+            * ``offset`` *(optional)* *(int)* - sinceId.
+            * ``limit``  *(optional)* *(int)* - limit.
 
 Market Order Details
 --------------------
@@ -195,6 +195,7 @@ Market Order Details
         }
 
         **URL**:
+
             * ``market`` *(required)*  - market name, for example *(BCCBTC)*.
             * ``orderId`` *(required)* - id,for example *(2168)*.
 
@@ -226,6 +227,7 @@ Market Order Cancel
                 }
 
         **URL**:
+
             * ``market`` *(required)*  - market name, for example *(BCCBTC)*.
             * ``orderId`` *(required)* - id,for example *(2168)*.
 
@@ -258,14 +260,17 @@ Market Order Place
 
 
             **URL**:
-            *``market`` *(required) - market name, for example *(BCCBTC)*.
+
+            * ``market`` *(required) - market name, for example *(BCCBTC)*.
 
             **Parameters**:
+
             * ``side`` *(required)* *(int)* - trade type, for example *(1)*.
             * ``amount`` *(required)* *(float)* - count or amount.
             * ``price`` *(required)* *(float)* - transfer to address and value.
 
         .. note::
+
             * ``side`` 1: sell, 2: buy.
             * ``amount`` count or amount.
             * ``price`` price.

@@ -44,6 +44,7 @@ Balance history
 
             /balance/history?coin_code=BCC&limit=10&offset=0
 
+
             {
                 "records": [
                     {
@@ -75,5 +76,5 @@ Balance history
 
            **Parameters**:
             * ``coin_code`` *(required)* *(String)* - coinCode.
-            * ``offset``*(optional)* *(int)* - offset.
+            * ``offset`` *(optional)* *(int)* - offset.
             * ``limit`` *(optional)* *(int)* - limit.
