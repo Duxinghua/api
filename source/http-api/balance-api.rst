@@ -40,6 +40,8 @@ Balance history
 
 **GET /balance/history** *(String: coin_code)* *(int: limit)* *(int: offset)*
 
+        Example url: /balance/history?coin_code=BCC&limit=10&offset=0
+
         **Example response**::
 
                 {

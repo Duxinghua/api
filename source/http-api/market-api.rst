@@ -88,9 +88,9 @@ Market Order Finished
 
 **GET /market/{market}/order/finished**
 
-        **Example response**::
+        Example url: /market/BCCBTC/order/finished?limit=10&offset=0
 
-                
+        **Example response**::
 
                 {
                     "records": [
@@ -128,8 +128,9 @@ Market Order Pending
 
 **GET /market/{market}/order/pending**
 
-        **Example response**::
+        Example url: /market/BTGBTC/order/pending?limit=10&offset=0
 
+        **Example response**::
 
                 {
                     "records": [
