@@ -10,13 +10,13 @@ Depth query
         **Example request**::
 
                 {
-                        "method":"depth.query",
-                        "params":[
-                        "BCCBTC",           //1.market: market name
-                        10,                 //2.limit: Count limit, Integer
-                        "0"                 //3.interval: Merge，String e.g. "0" for no interval
-                        ],
-                        "id":1517465832
+                  "method":"depth.query",
+                  "params":[
+                  "BCCBTC",           //1.market: market name
+                  10,                 //2.limit: Count limit, Integer
+                  "0"                 //3.interval: Merge, String e.g. "0" for no interval
+                  ],
+                  "id":1517465832
                 }
 
         **Response**::
@@ -54,7 +54,7 @@ Subscribe market depth
                 {
                   "method": "depth.update",
                   "params": [
-                    true,                   //Boolean, true: for complete result，false: for update based on latest retrun result
+                    true,                   //Boolean, true: for complete result, false: for update based on latest retrun result
                     {                       //Update info
                       "bids": [             //Depth of Buy
                         [
@@ -79,18 +79,18 @@ Unsubscribe depth
 
         **Example request**::
 
-        {
-            "method": "depth.unsubscribe",
-            "params": [],
-            "id": 1517466483
-        }
+                {
+                    "method": "depth.unsubscribe",
+                    "params": [],
+                    "id": 1517466483
+                }
 
-        **Response**:
+        **Response**::
 
-        {
-            "error": null,
-            "result": {
-                "status": "success"
-            },
-            "id": 1517466483
-        }
+                {
+                    "error": null,
+                    "result": {
+                        "status": "success"
+                    },
+                    "id": 1517466483
+                }
