@@ -13,9 +13,3 @@ Welcome to Expie api's documentation!
    websocket-api/index
    http-api/index
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
