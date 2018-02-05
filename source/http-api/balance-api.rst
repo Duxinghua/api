@@ -46,7 +46,8 @@ Balance history
 
 
             {
-                "records": [
+                "records":
+                [
                     {
                         "business": "deposit",
                         "detail": {
