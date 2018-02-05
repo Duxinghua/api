@@ -43,8 +43,6 @@ Balance history
             **Example response**::
 
             /balance/history?coin_code=BCC&limit=10&offset=0
-
-
             {
                 "records":
                 [
