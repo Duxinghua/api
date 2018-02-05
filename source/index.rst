@@ -14,3 +14,4 @@ Welcome to Expie api's documentation!
    websocket-api/index
    test/index
    test1/index
+   test2/index
