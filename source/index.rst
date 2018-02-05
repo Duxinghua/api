@@ -11,9 +11,3 @@ Welcome to Expie api's documentation!
    :caption: Contents:
 
    http-api/index
-   websocket-api/index
-   test/index
-   test1/index
-   test2/index
-   test3/index
-   test4/index
