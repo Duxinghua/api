@@ -75,22 +75,3 @@ Subscribe market depth
                 }
 
 Unsubscribe depth
------------------
-
-        **Example request**::
-
-                {
-                    "method": "depth.unsubscribe",
-                    "params": [],
-                    "id": 1517466483
-                }
-
-        **Response**::
-
-                {
-                    "error": null,
-                    "result": {
-                        "status": "success"
-                    },
-                    "id": 1517466483
-                }
