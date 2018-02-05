@@ -43,35 +43,35 @@ Balance history
         **Example response**::
 
                 {
-                  "records": [
-                    {
-                      "business": "deposit",
-                      "detail": {
-                        "timestamp_action_id": 1517749392,
-                        "id": 85130
-                      },
-                      "asset": "BCC",
-                      "time": 1517749392.541296,
-                      "balance": "1",
-                      "change": "0.9"
-                    },
-                    {
-                      "business": "deposit",
-                      "detail": {
-                        "timestamp_action_id": 1517749197,
-                        "id": 85128
-                      },
-                      "asset": "BCC",
-                      "time": 1517749197.094249,
-                      "balance": "0.1",
-                      "change": "0.1"
-                    }
-                  ],
-                  "limit": 10,
-                  "offset": 0
+                    "records": [
+                        {
+                        "business": "deposit",
+                            "detail": {
+                                "timestamp_action_id": 1517749392,
+                                "id": 85130
+                            },
+                                "asset": "BCC",
+                                "time": 1517749392.541296,
+                                "balance": "1",
+                                "change": "0.9"
+                            },
+                            {
+                        "business": "deposit",
+                            "detail": {
+                                "timestamp_action_id": 1517749197,
+                                "id": 85128
+                            },
+                                "asset": "BCC",
+                                "time": 1517749197.094249,
+                                "balance": "0.1",
+                                "change": "0.1"
+                            }
+                        ],
+                    "limit": 10,
+                    "offset": 0
                 }
 
-           **Parameters**:
+        **Parameters**:
             * ``coin_code`` *(required)* *(String)* - coinCode.
             * ``offset`` *(optional)* *(int)* - offset.
             * ``limit`` *(optional)* *(int)* - limit.
